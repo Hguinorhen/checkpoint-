@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: rgb(252, 245, 245);
+  background-image: url("received_3146120319044501.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+}
+img {
+  border-radius: 300px;
+}
+#cv {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  min-height: 25vh;
+  width: 80%;
+  display: flex;
+  align-items: normal;
+  justify-content: left;
+  color: #5c0505;
+}
+.cta {
+  margin: 20px;
+  background-color: rgb(15, 13, 13);
+  color: rgb(243, 231, 231);
+  width: 140px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 550;
+}
+.nav li {
+  display: inline-block;
+  margin: 15px;
+  color: rgb(246, 246, 246);
+  text-decoration: none;
+  width: 300px;
+  text-align: center;
+}
+.nav li:hover {
+  color: rgb(3, 2, 2);
+  background-color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+ul {
+  background-color: rgb(56, 3, 3);
+}
+.FT {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: none;
+  min-height: 5vh;
+}
+#CONTACT,
+#LANGUAGES,
+#INTEREST {
+  margin: 100px;
+  background-color: rgb(53, 6, 6);
+  color: white;
+  border-bottom-left-radius: 70px;
+  border-left-color: rgb(254, 255, 254);
+  border-top-width: thin;
+  width: 350px;
+  padding: 30px;
+}
+input[type=submit]{
+  background-color: rgb(235, 227, 227);
+  display: inline-block;
+  margin: 15px;
+  color: rgb(12, 4, 4);
+  text-decoration: none;
+  width: 300px;
+}
+input[type=submit]:hover {
+  background-color: rgb(46, 3, 3);
+  border-radius left: 10px;
+  width: 300px }
+input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(29, 3, 3);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+  select {
+    width:5%;
+    padding: 0px;
+    margin: 10px 0;
+    display: block;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: #080202;
+   border: 5px solid transparent;
+    border-color: transparent transparent rgba(184, 169, 169, 0.1) transparent;
+   background-color:rgb(255, 255, 255);
+  }
+  pre {
+    color: rgb(71, 3, 3);
+  }
+  
+  footer p {
+    font-family:cursive;
+    font-size: 20px;
+    color: #CCC;
+    padding-bottom: 0px;
+    margin-bottom: 8px; }
